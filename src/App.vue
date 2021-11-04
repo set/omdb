@@ -139,8 +139,8 @@ export default {
   components: { MovieModal },
   data() {
     return {
-      keyword: 'ser',
-      year: '2017',
+      keyword: '',
+      year: null,
       currentPage: 1,
       perPage: 10,
       totalRows: 1,
