@@ -1,0 +1,17 @@
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  a {
+    color: $text-gray;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    i {
+      color: $text-secondary;
+    }
+    span {
+      margin-left: 10px;
+    }
+  }
+}

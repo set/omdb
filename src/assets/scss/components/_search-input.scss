@@ -1,0 +1,33 @@
+.search-input {
+  display: flex;
+  align-items: center;
+  border: 1px solid $background;
+  height: 45px;
+  .label {
+    display: flex;
+    align-items: center;
+    background: $light-gray;
+    color: $text-gray;
+    font-size: 11px;
+    font-weight: 400;
+    border-right: 1px solid $background;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 100%;
+    width: max-content;
+  }
+  .icon {
+    font-size: 18px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: $text-secondary;
+  }
+  input {
+    border: 0;
+    flex: 1;
+    height: calc(100% - 2px);
+    background: #fff;
+    outline: none;
+    color: $text-secondary;
+  }
+}

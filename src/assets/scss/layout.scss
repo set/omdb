@@ -1,0 +1,65 @@
+@import "reset";
+
+/**
+ * Colors
+ */
+// Main Colors
+$primary: #004B82;
+$secondary: #DE65AC;
+$background: #F1F6F9;
+$light-gray: #F8F9F9;
+
+// Text Colors
+$text-primary: $primary;
+$text-secondary: #4D9ED8;
+$text-gray: #7F8A92;
+
+// Sidebar
+$sidebar-top-background: #FBFCFC;
+
+// Filters
+$filter-background: #E4F0F9;
+
+button {
+  border: 0;
+  background: transparent;
+}
+
+#app {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  min-height: 100vh;
+  font-family: 'Rubik';
+  background: $background;
+}
+
+.text-center {
+  text-align: center;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: 500;
+  color: $primary;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 500;
+  color: $primary;
+  margin-top: 30px;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-center-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

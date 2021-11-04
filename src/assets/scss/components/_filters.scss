@@ -1,0 +1,38 @@
+.filters {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  .filter {
+    position: relative;
+    background: $filter-background;
+    color: $text-primary;
+    border-radius: 30px;
+    padding: 10px 60px 10px 20px;
+    font-size: 12px;
+    transition: .3s;
+    border: 1px solid $filter-background;
+    &:not(:last-child) {
+      margin-right: 10px;
+    }
+    &:hover {
+      background: #fff;
+      border-color: $text-secondary;
+      box-shadow: 0 3px 10px rgba(0, 117, 201, 0.15);
+      .remove {
+        visibility: visible;
+        opacity: 1;
+      }
+    }
+    .remove {
+      position: absolute;
+      font-size: 10px;
+      right: 15px;
+      top: 11.5px;
+      color: $text-secondary;
+      cursor: pointer;
+      visibility: hidden;
+      opacity: 0;
+      transition: .3s;
+    }
+  }
+}
