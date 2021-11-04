@@ -38,7 +38,7 @@
               <a href="#">Tümü</a>
             </div>
             <div class="actions">
-              <a href="#"><i class="icon-refresh"></i></a>
+              <a href="#" @click.prevent="search"><i class="icon-refresh"></i></a>
             </div>
           </div>
           
